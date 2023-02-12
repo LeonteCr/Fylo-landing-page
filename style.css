@@ -303,7 +303,7 @@ footer {
     background-color: hsl(243, 87%, 12%);
     color: #ffff;
     font-family: 'Open Sans', sans-serif;
-    padding: 3.5em 2em;
+    padding: 3.5em 2em 0 2em;
 }
 
 .foot-logo  {
@@ -377,7 +377,6 @@ footer:nth-child(4) {
     font-size: 11px; 
     text-align: center;
     margin-top: 3em;
-    margin-bottom: -5em;
  }
     
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -524,7 +523,7 @@ footer:nth-child(4) {
     }
 
     footer {
-        padding: 5em 4em;
+        padding: 5em 4em 0 4em;
     }
     .foot-logo {
         width: 130px;
@@ -557,8 +556,6 @@ footer:nth-child(4) {
         flex-direction: column;
     }
 
-    .attribution {
-        margin-bottom: -6.9em;
-    }
+
 
 }
