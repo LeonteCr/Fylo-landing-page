@@ -1,0 +1,564 @@
+/* =============
+   Global styles
+   ============== */
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+    /* ========
+        Header
+       ======= */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 4.5em;
+    padding: 1.5em 1.5em;
+}
+.logo-navbar {
+    width: 80px;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.2rem;
+    font-size: 0.7rem;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+        /* =======
+            Main
+        ============ */
+
+/*First section
+=================  */
+
+.first-section {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.first-img img {
+    width: 100%;
+   
+}
+
+.first-img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first-title {
+    text-align: center;
+    line-height: 2.2rem;
+    margin: 1.4em auto 1em auto;
+    padding: 0 1em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.first-para {
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    padding: 0 2.2em;
+}
+
+/* First Input mail
+==================== */
+
+.first-input {
+    display: grid;
+    gap: 1em;
+    margin-top: 1.75em;
+    padding: 0 2em;
+}
+
+.email,
+.get-btn {
+    height: 2.35rem;
+    border-radius: 3.5px;
+   
+}
+
+.get-btn {
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    font-weight: 600;
+    border: none;
+    box-shadow: 3px -3px 7px hsl(225, 70%, 91%);
+
+}
+
+.get-btn:hover {
+    opacity: 0.6;
+    box-shadow: 3px 3px 5px hsl(224, 34%, 80%);
+}
+.email {
+    opacity: 0.5;
+}
+.email::placeholder {
+    opacity: .5;
+}
+.email:invalid:focus {
+    outline: 1px solid red;
+    border: none;
+}
+
+/* Second section- 'Stay productive'
+ ==================================*/
+
+.bg {
+    margin-top: 5.5em;
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+ .second-img img {
+    width: 100%;
+    padding: 2em 1em;
+}
+
+.second-img {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.stay-productive-section {
+    background-color: #F8F8FE;
+    padding-bottom: 3em;
+}
+
+.stay-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+    margin: 3.5em auto 1.5em auto;
+}
+
+.stay-para {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.87rem;
+    padding: 0 1.5em;
+    line-height: 1.3rem;
+    opacity: .85;
+    margin-bottom: 1em;
+}
+
+.see-how-link {
+    display: flex;
+    width: fit-content;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: hsl(170, 45%, 43%);
+    text-align: center;
+    text-decoration: none;
+    margin: 3em auto 0 auto;
+    padding-bottom: 0.3em;
+    border-bottom: 1.6px solid hsl(170, 45%, 43%);
+}
+
+.see-how-link img {
+    padding-left: 0.5em;
+}
+
+.see-how-link:hover {
+   opacity: .6;
+}
+
+.testimon {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    width: 75%;
+    max-width: 285px;
+    margin: 2.3em auto 2em auto;
+    padding: 1em 1em 1em 1.5em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px  hsl(0, 7%, 92%), -2px -2px 20px hsl(0, 7%, 92%);
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.avatar img {
+    width: 1.5rem;
+    border-radius: 50%;
+   
+}
+blockquote {
+    margin: 0;
+}
+.review {
+    font-size: 0.63rem;
+    line-height: 1.1rem;
+    font-weight: 500;
+    margin-top: 0.5em;
+}
+
+.name,
+.job {
+    margin: 0;
+}
+
+.name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.job {
+    font-size: 0.5rem;
+}
+
+.early-section {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    text-align: center;
+    padding: 3.3em 2.5em 3em 2.5em;
+}
+.early-title {
+    margin-top: 0;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.early-para {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.83rem;
+    line-height: 1.25rem;
+    opacity: 0.9;
+}
+
+.second-input {
+    display: grid;
+    gap: 0.5em;
+    width: 85%;
+    margin: 1.5em auto;
+}
+
+.second-email {
+    height: 2rem;
+    border-radius: 2px;
+    border: none;
+    box-shadow: -2px -2px 25px hsl(223, 22%, 29%);
+}
+
+.second-email::placeholder {
+    opacity: 0.5;
+    font-size: 0.7rem;
+}
+.second-email:invalid:focus {
+    outline: 2px solid red;
+    border: none;
+}
+
+.free-btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    height: 2rem;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 1px 1px 10px hsl(223, 22%, 29%);
+}
+
+.free-btn:hover {
+    background-color: hsl(224, 86%, 77%);
+    transition: 0.2s;
+    box-shadow: -2px 2px 20px hsl(224, 23%, 28%);
+}
+
+    /* =======
+       FOOTER
+    ============*/
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: #ffff;
+    font-family: 'Open Sans', sans-serif;
+    padding: 3.5em 2em;
+}
+
+.foot-logo  {
+    margin-bottom: 1em;
+}
+
+.contact img {
+    height: fit-content;
+}
+
+.mail-adrs,
+.phone  {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+footer li {
+            list-style: none;
+          
+            }
+footer ul {
+    margin: 0;
+    padding: 0;  
+}
+footer:nth-child(4) {
+    margin-top: 3em;
+}
+
+.foot-link-gr {
+    display: grid;
+    gap: 1em;
+    margin-top: 2.5em;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.foot-link {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-link:hover {
+    color: hsl(239, 86%, 77%);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 3em;
+}
+
+.social img {
+    width: 1.2rem;
+}
+
+.facebook:hover {
+    filter: invert(0.34) sepia(1) saturate(14.9) hue-rotate(180deg) brightness(0.99) ;
+}
+.insta:hover {
+    filter: invert(0.27) sepia(1) saturate(10.6) hue-rotate(252deg) brightness(0.99);
+}
+.twitter:hover {
+    filter: invert(0.4) sepia(1) saturate(20) hue-rotate(180deg) brightness(0.91);
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: -5em;
+ }
+    
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (min-width: 800px) {
+
+    .logo-navbar {
+        width: 135px;
+    }
+    header {
+        margin: 1.5em 2.5em; 
+    }
+    .nav-bar {
+      font-size: 0.85rem;
+      gap: 3em;
+    }
+
+    .first-section {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 3em 2.5em;
+       
+    }
+
+    .first-img img {
+        width: 95%;
+    }
+
+    .first-left,
+    .first-img {
+        flex: 1;
+    }
+
+    .first-title,
+    .first-para {
+        text-align: left;
+    }
+
+    .first-title {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 0.5em;
+    }
+
+    .first-para {
+        font-size: 0.87rem;
+        margin: 0;
+        font-weight: 500;
+        width: 98%;
+    }
+
+    .first-input {
+        display: flex;
+        width: 90%;
+        margin-top: 1.5em;
+    }
+    .email,
+    .get-btn {
+        flex: 1;
+    }
+    .email {
+        flex-grow: 1.6;
+    }
+
+    .stay-productive-section {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 3em 4em 4em 4em;
+        gap: 2em;
+    }
+    .second-img,
+    .left-stay {
+        flex: 1;
+    }
+    .left-stay {
+        flex-grow: 1.3;
+    }
+
+    .stay-title {
+        font-size: 2rem;
+        margin: 0 0 1em 0;
+        width: 100%;
+        text-align: left;
+        
+    }
+
+    .stay-para {
+        padding: 0;
+        width: 83%;
+        font-size: 0.8;
+    }
+
+    .second-img img {
+        padding: 0;
+    }
+
+    .see-how-link{
+        margin: 0 0 3em 0;
+
+      
+    }
+    .testimon
+     {
+        margin: 0 0 1.5em 0;
+    }
+
+    .review {
+        font-size: 0.7rem;
+    }
+
+    .early-section {
+        display: flex;
+        padding: 5em 4em 4em 4em;
+        gap: 10em;
+    }
+
+    .second-input {
+        gap: 1.5em;
+    }
+
+    .second-email,
+    .free-btn {
+        height: 2.5rem;
+    }
+
+    .free-btn {
+        width: 40%;
+        min-width: 135px;
+        max-width: 200px;
+        font-size: 0.8rem;
+    }
+
+    .left-early,
+    .second-input {
+        flex: 1;
+        text-align: left;
+    }
+
+    .early-title {
+        font-size: 1.6rem;
+        margin: 0;
+        opacity: 0.95;
+    }
+
+    footer {
+        padding: 5em 4em;
+    }
+    .foot-logo {
+        width: 130px;
+        margin-bottom: 2em;
+    }
+    .foot-flex {
+        display: flex;
+        margin-bottom: 4em;
+    }
+
+    .foot-link-gr,
+    .contact ,
+    .social{
+        font-size: 0.8rem;
+        flex: 1;
+    }
+
+    .foot-link-gr,
+    .social, 
+    .phone p {
+        margin: 0;
+    }
+
+    .contact {
+        flex-grow: 1.8;
+    }
+
+    .foot-link-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .attribution {
+        margin-bottom: -6.9em;
+    }
+
+}
