@@ -293,7 +293,6 @@ blockquote {
 
 .free-btn:hover {
     background-color: hsl(224, 86%, 77%);
-    transition: 0.2s;
     box-shadow: -2px 2px 20px hsl(224, 23%, 28%);
 }
 
@@ -420,7 +419,7 @@ footer:nth-child(4) {
 
     .first-title {
         font-size: 2.5rem;
-        line-height: 3rem;
+        line-height: 3.5rem;
         margin-bottom: 0.5em;
         
     }
@@ -480,7 +479,7 @@ footer:nth-child(4) {
     }
 
     .see-how-link{
-        margin: 0 0 3em 0;
+        margin: 1.5em 0 3em 0;
         font-size: 1rem;
         gap: 0.5rem;
     }
@@ -510,7 +509,7 @@ footer:nth-child(4) {
 
     .second-email,
     .free-btn {
-        height: 2.5rem;
+        height: 3rem;
     }
 
     .free-btn {
